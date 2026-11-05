@@ -1,0 +1,786 @@
+/* CONFIGURAÇÕES GERAIS */
+
+:root {
+    --cor-fundo: #080704;
+    --cor-fundo-secundario: #100d08;
+    --cor-card: #171208;
+    --cor-dourada: #b8862f;
+    --cor-dourada-clara: #d7aa55;
+    --cor-texto: #e8dcc5;
+    --cor-texto-secundario: #a5957c;
+    --cor-borda: rgba(184, 134, 47, 0.28);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    width: 100%;
+    max-width: none;
+    height: 88px;
+    margin: 0;
+    padding: 0px 24px;
+}
+
+.marca,
+.marca-rodape {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.simbolo-marca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: var(--cor-dourada-clara);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    border: 1px solid var(--cor-dourada);
+    transform: rotate(45deg);
+}
+
+.marca > span:last-child,
+.marca-rodape > div {
+    display: flex;
+    flex-flow: column nowrap;
+    line-height: 1;
+}
+
+.marca strong,
+.marca-rodape strong {
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.marca small,
+.marca-rodape small {
+    color: var(--cor-dourada);
+    font-size: 8px;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+
+.navegacao {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.navegacao > a {
+    color: #ece8de;
+    font-size: 16px;
+}
+
+.navegacao > a:hover {
+    color: lightgray;
+    transition: 300ms;
+}
+
+.botao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-dourada);
+    color: #100b04;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 26px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 200ms ease, transform 200ms ease;
+}
+
+.botao:hover {
+    background-color: var(--cor-dourada-clara);
+    transform: translateY(-2px);
+}
+
+.botao-menu {
+    display: none;
+    background-color: transparent;
+    width: 34px;
+    border: none;
+}
+
+.botao-menu span {
+    display: block;
+    background-color: var(--cor-texto);
+    height: 1px;
+    margin: 7px 0px;
+}
+
+/* SEÇÃO PRINCIPAL */
+
+.destaque {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: none;
+    min-height: 650px;
+    margin: 0;
+    padding: 0px 24px 48px 24px;
+}
+
+.conteudo-destaque {
+    align-self: center;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.subtitulo {
+    color: var(--cor-dourada);
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 22px;
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4.5em;
+    font-weight: normal;
+    line-height: 1;
+}
+
+h1 em,
+h2 em {
+    color: var(--cor-dourada-clara);
+}
+
+.texto-destaque {
+    color: var(--cor-texto-secundario);
+    font-size: 17px;
+    max-width: 760px;
+    margin: 30px 0px;
+}
+
+.acoes-destaque {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.link-texto {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--cor-borda);
+}
+
+.link-texto span {
+    color: var(--cor-dourada);
+    margin-left: 8px;
+}
+
+
+
+.imagem-destaque {
+    position: relative;
+    min-height: 650px;
+    background-image: linear-gradient(to top, rgba(8, 7, 4, 0.7), transparent), url('assets/hero-barbearia.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.moldura-dourada {
+    position: absolute;
+    top: 35px;
+    right: -10px;
+    bottom: -18px;
+    left: 50px;
+    border: 1px solid var(--cor-dourada);
+    z-index: -1;
+}
+
+.palavra-vertical {
+    position: absolute;
+    right: -14px;
+    bottom: 90px;
+    color: var(--cor-dourada-clara);
+    font-size: 9px;
+    letter-spacing: 6px;
+    writing-mode: vertical-rl;
+}
+
+/* CONFIGURAÇÕES DAS SEÇÕES */
+
+.secao {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 110px 24px;
+}
+
+.cabecalho-secao {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.cabecalho-secao > p {
+    color: var(--cor-texto-secundario);
+    max-width: 330px;
+}
+
+/* SOBRE */
+
+.sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    border-bottom: 1px solid var(--cor-borda);
+}
+
+.sobre h2,
+.cabecalho-secao h2,
+
+.chamada-final h2 {
+    font-size: 3.8em;
+}
+
+.texto-sobre {
+    padding-top: 34px;
+}
+
+.texto-sobre p {
+    color: var(--cor-texto-secundario);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.texto-sobre .link-texto {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* GALERIA */
+
+.grade-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: clamp(290px, 24vw, 460px) clamp(290px, 24vw, 460px);
+    gap: 16px;
+}
+
+.item-galeria {
+    position: relative;
+    overflow: hidden;
+}
+
+.galeria-alta {
+    grid-row: span 2;
+}
+
+.galeria-larga {
+    grid-column: span 2;
+}
+
+.item-galeria img {
+    filter: saturate(60%);
+}
+
+.item-galeria img:hover {
+    transform: scale(1.04);
+    filter: saturate(90%);
+    transition: 500ms;
+}
+
+.item-galeria figcaption {
+    position: absolute;
+    left: 20px;
+    bottom: 18px;
+    background-color: rgba(8, 7, 4, 0.8);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+}
+
+.item-galeria figcaption span {
+    color: var(--cor-dourada);
+    margin-right: 10px;
+}
+
+/* SERVIÇOS */
+
+.servicos {
+    max-width: none;
+    background-color: var(--cor-fundo-secundario);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.lista-servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 70px;
+}
+
+.lista-servicos article {
+    display: flex;
+    gap: 22px;
+    padding: 28px 0px;
+    border-top: 1px solid var(--cor-borda);
+}
+
+.lista-servicos article > span,
+.grade-motivos article > span {
+    color: var(--cor-dourada);
+    font-size: 10px;
+}
+
+.lista-servicos h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.lista-servicos p {
+    color: var(--cor-texto-secundario);
+    font-size: 13px;
+}
+
+.rotulo-rodape {
+    display: block;
+    color: var(--cor-dourada);
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+/* DIFERENCIAIS */
+
+.motivos {
+    border-top: 1px solid var(--cor-borda);
+}
+
+.grade-motivos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grade-motivos article {
+    padding: 36px 34px 20px 34px;
+    border-left: 1px solid var(--cor-borda);
+}
+
+.grade-motivos article:first-child {
+    padding-left: 0px;
+    border-left: none;
+}
+
+.grade-motivos h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 35px 0px 14px 0px;
+}
+
+.grade-motivos p {
+    color: var(--cor-texto-secundario);
+    font-size: 14px;
+}
+
+/* CHAMADA FINAL */
+
+.chamada-final {
+    background-image: linear-gradient(rgba(8, 7, 4, 0.75), rgba(8, 7, 4, 0.92)), url('assets/hero-barbearia.png');
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding: 130px 24px;
+}
+
+.chamada-final .botao {
+    margin-top: 40px;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: none;
+    margin: 0;
+    padding: 70px 24px 24px 24px;
+}
+
+.rodape > div p {
+    color: var(--cor-texto-secundario);
+    font-size: 12px;
+}
+
+.rodape-inferior {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / -1;
+    padding-top: 22px;
+    margin-top: 25px;
+    border-top: 1px solid var(--cor-borda);
+}
+
+.rodape-inferior strong {
+    color: var(--cor-dourada);
+    font-weight: normal;
+}
+
+.rodape-inferior > a {
+    color: rgb(146, 129, 35);
+}
+
+/* Proporcoes da apresentacao em telas maiores */
+@media (min-width: 901px) {
+    .destaque h1 {
+        font-size: clamp(4.5rem, 6.5vw, 8rem);
+    }
+
+    .texto-destaque {
+        font-size: clamp(17px, 1.35vw, 22px);
+    }
+}
+
+/* RESPONSIVIDADE PARA TABLETS */
+
+@media (max-width: 900px) {
+    .botao-menu {
+        margin-left: auto;
+        display: block;
+    }
+
+    .navegacao {
+        display: none;
+        position: absolute;
+        top: 75px;
+        left: 18px;
+        right: 18px;
+        flex-flow: column nowrap;
+        align-items: stretch;
+        background-color: var(--cor-fundo-secundario);
+        padding: 25px;
+        border: 1px solid var(--cor-borda);
+        z-index: 10;
+    }
+
+    .navegacao.aberto {
+        display: flex;
+    }
+
+    .destaque {
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+
+    .conteudo-destaque {
+        padding: 80px 24px;
+    }
+
+    .imagem-destaque {
+        min-height: 520px;
+    }
+
+    .moldura-dourada {
+        display: none;
+    }
+
+    .sobre {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .grade-galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 380px 260px 320px;
+    }
+
+    .galeria-alta,
+    .galeria-larga {
+        grid-column: span 2;
+        grid-row: auto;
+    }
+
+    .rodape {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .marca-rodape {
+        grid-column: 1 / -1;
+    }
+}
+
+/* RESPONSIVIDADE PARA CELULARES */
+
+@media (max-width: 600px) {
+    .cabecalho {
+        height: 74px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .sobre h2,
+    .cabecalho-secao h2,
+
+    .chamada-final h2 {
+        font-size: 2.8em;
+    }
+
+    .conteudo-destaque {
+        padding: 65px 20px;
+    }
+
+    .acoes-destaque {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        gap: 22px;
+    }
+
+    .informacoes-destaque {
+        gap: 25px;
+        margin-top: 45px;
+    }
+
+    .imagem-destaque {
+        min-height: 450px;
+    }
+
+    .secao {
+        padding: 85px 20px;
+    }
+
+    .sobre {
+        gap: 30px;
+    }
+
+    .texto-sobre {
+        padding-top: 0px;
+    }
+
+    .cabecalho-secao {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .grade-galeria {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .item-galeria,
+    .galeria-alta,
+    .galeria-larga {
+        min-width: 82vw;
+        height: 430px;
+    }
+
+    .lista-servicos {
+        grid-template-columns: 1fr;
+    }
+
+    .servicos {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .grade-motivos {
+        grid-template-columns: 1fr;
+    }
+
+    .grade-motivos article,
+    .grade-motivos article:first-child {
+        padding: 32px 0px;
+        border-left: none;
+        border-top: 1px solid var(--cor-borda);
+    }
+
+    .chamada-final {
+        padding: 100px 20px;
+    }
+
+    .rodape {
+        grid-template-columns: 1fr;
+        padding-top: 55px;
+    }
+
+    .marca-rodape {
+        grid-column: auto;
+    }
+
+    .rodape-inferior {
+        flex-flow: column nowrap;
+        gap: 8px;
+    }
+}
+
+/* Contato em destaque no menu */
+.navegacao > .botao-contato-menu {
+    color: #100b04;
+    padding: 11px 18px;
+}
+
+.navegacao > .botao-contato-menu:hover {
+    color: #100b04;
+}
+
+@media (min-width: 901px) {
+    .navegacao {
+        margin-right: 100px;
+    }
+}
+
+.botao:focus-visible {
+    outline: 2px solid var(--cor-dourada-clara);
+    outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .botao {
+        transition: none;
+    }
+    .botao:hover {
+        transform: none;
+    }
+}
+
+/* Galeria ampliada */
+.abrir-foto {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.abrir-foto:focus-visible {
+    outline: 3px solid var(--cor-dourada-clara);
+    outline-offset: -4px;
+}
+.item-galeria figcaption { pointer-events: none; }
+body.foto-aberta { overflow: hidden; }
+.visualizador {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 70px 24px 24px;
+    border: 0;
+    background: rgba(8, 7, 4, 0.97);
+    color: var(--cor-texto);
+}
+.visualizador::backdrop { background: #080704; }
+.conteudo-visualizador {
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr) 48px;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+.foto-ampliada { min-width: 0; margin: 0; }
+.foto-ampliada img {
+    width: 100%;
+    height: calc(100dvh - 160px);
+    object-fit: contain;
+}
+.foto-ampliada figcaption { text-align: center; padding-top: 16px; }
+.controle-foto {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.controle-foto:hover { background: transparent; }
+.controle-foto svg {
+    width: 30px;
+    height: 30px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 3.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.controle-foto:focus-visible { outline: 2px solid var(--cor-dourada-clara); outline-offset: 4px; }
+.controle-foto[hidden] { display: none; }
+.foto-anterior { grid-column: 1; grid-row: 1; }
+.foto-ampliada { grid-column: 2; grid-row: 1; }
+.foto-seguinte { grid-column: 3; grid-row: 1; }
+.fechar-foto { position: absolute; top: 12px; right: 24px; }
+@media (max-width: 600px) {
+    .visualizador { padding: 70px 12px 16px; }
+    .conteudo-visualizador { grid-template-columns: 36px minmax(0, 1fr) 36px; gap: 8px; }
+    .controle-foto { width: 36px; height: 40px; font-size: 22px; }
+    .fechar-foto { right: 12px; }
+}
+
+/* Setas preenchidas e fechamento maior */
+.foto-anterior svg,
+.foto-seguinte svg {
+    width: 34px;
+    height: 34px;
+    fill: currentColor;
+    stroke: none;
+}
+.foto-anterior svg { transform: rotate(180deg); }
+.fechar-foto svg {
+    width: 40px;
+    height: 40px;
+    stroke-width: 3.5;
+}
