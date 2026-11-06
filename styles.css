@@ -784,3 +784,23 @@ body.foto-aberta { overflow: hidden; }
     height: 40px;
     stroke-width: 3.5;
 }
+
+/* Localizacao com mapa incorporado */
+.localizacao { scroll-margin-top: 24px; }
+.localizacao .cabecalho-secao { margin-bottom: 28px; }
+.detalhes-localizacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px 24px;
+    color: var(--cor-texto-secundario);
+    margin-bottom: 24px;
+}
+.mapa-localizacao {
+    display: block;
+    width: 100%;
+    height: clamp(320px, 42vw, 560px);
+    border: 1px solid var(--cor-borda);
+    border-radius: 6px;
+    background: var(--cor-fundo-secundario);
+}
