@@ -1,5 +1,9 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Mensagem de agendamento
+
+- Botões do WhatsApp abrem a conversa com “Gostaria de agendar meu horário!” preenchido, aguardando o envio pelo cliente.
+
 ## 6 de novembro de 2026 — Organização da documentação
 
 - README mantido como entrada na raiz.

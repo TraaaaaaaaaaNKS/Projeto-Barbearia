@@ -41,6 +41,8 @@ Foram removidos o parágrafo auxiliar da galeria e os números dos artigos de se
 
 Os botões “Agendar horário” abrem `https://wa.me/558791105879` em nova aba.
 
+O link inclui o parâmetro `text`, com a mensagem “Gostaria de agendar meu horário!” já preenchida. O cliente precisa confirmar o envio no WhatsApp; a mensagem não é enviada automaticamente. Para alterar o texto, atualize o parâmetro nos dois botões de `index.html`, codificando os caracteres para URL.
+
 - WhatsApp: +55 87 9110-5879.
 - Endereço: Rua da Granja, nº 56, Arcoverde–PE.
 - Atendimento: segunda a sábado, das 08h às 18h.
