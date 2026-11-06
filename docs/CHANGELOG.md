@@ -1,5 +1,10 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Valores fixos e apresentação dos preços
+
+- Barba fixada em R$ 20 e sobrancelha em R$ 15.
+- Preços integrados ao título do serviço, com símbolo monetário menor e valor em tipografia serifada.
+
 ## 6 de novembro de 2026 — Apresentação dos serviços
 
 - Substituídos os cartões por linhas abertas de um menu de serviços.

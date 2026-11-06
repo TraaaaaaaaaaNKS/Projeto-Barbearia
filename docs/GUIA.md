@@ -44,14 +44,14 @@ Na branch `melhorias/agendamento-comparador`, os cartões de serviço incluem pr
 | Serviço | Valores informados |
 | --- | --- |
 | Corte masculino | R$ 25 |
-| Barba | R$ 15 / R$ 20 |
+| Barba | R$ 20 |
 | Luzes | R$ 80 |
 | Reflexo | R$ 80 |
 | Nevou | R$ 100 |
 | Progressiva | R$ 60 |
-| Sobrancelha | R$ 5 / R$ 10 / R$ 15 |
+| Sobrancelha | R$ 15 |
 
-As diferenças entre as opções de barba e sobrancelha ainda não foram descritas pelo proprietário. Os valores são exibidos como opções, sem inventar categorias.
+Barba e sobrancelha usam valores fixos, conforme atualização do proprietário.
 
 Os botões “Agendar horário” abrem `https://wa.me/558791105879` em nova aba.
 
