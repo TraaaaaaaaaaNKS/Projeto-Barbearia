@@ -1,5 +1,11 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Apresentação dos serviços
+
+- Substituídos os cartões por linhas abertas de um menu de serviços.
+- Nomes em tipografia serifada, preços em coluna e agendamento com botão de contorno discreto.
+- Divisórias finas e disposição empilhada no celular, sem espaços de uma grade incompleta.
+
 ## 6 de novembro de 2026 — Alinhamento dos serviços
 
 - Cartões com borda, espaçamento uniforme e alturas consistentes.
