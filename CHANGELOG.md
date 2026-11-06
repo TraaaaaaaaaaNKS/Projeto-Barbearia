@@ -1,5 +1,9 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Ajuste na seção Sobre
+
+- Removido o link “Quero renovar meu visual”, mantendo os textos da seção.
+
 ## 6 de novembro de 2026 — Galeria mobile
 
 Commit `28e7e52`:
