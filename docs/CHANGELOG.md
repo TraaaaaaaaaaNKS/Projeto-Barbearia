@@ -1,5 +1,10 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Alinhamento dos serviços
+
+- Cartões com borda, espaçamento uniforme e alturas consistentes.
+- Preços e botões alinhados; três colunas em telas grandes, duas nas intermediárias e uma no celular.
+
 ## 6 de novembro de 2026 — Preços informados pelo proprietário
 
 - Ideia de preços retomada na branch de melhorias com os valores reais recebidos.
