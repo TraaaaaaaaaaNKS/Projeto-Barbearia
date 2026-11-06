@@ -76,7 +76,7 @@ Na galeria fechada, as miniaturas permitem rolagem horizontal no celular, com en
 
 Edite as figuras dentro de `.grade-galeria`, em `index.html`. Cada `.item-galeria` precisa conter um botão `.abrir-foto`, uma imagem com descrição `alt` e uma legenda `figcaption`.
 
-O JavaScript calcula a quantidade de fotos, o contador e os limites automaticamente. As quatro fotos atuais vêm do Unsplash e dependem de internet. Podem ser substituídas por arquivos locais em `assets/`.
+O JavaScript calcula a quantidade de fotos, o contador e os limites automaticamente. As três fotos atuais são arquivos locais: `assets/ft1.jpg`, `assets/ft2.jpg` e `assets/ft3.jpg`.
 
 ## Localização com iframe
 
@@ -158,7 +158,7 @@ Somente mudanças enviadas à `main` atualizam o site. O push e a conclusão do 
 
 ### Cache
 
-Os arquivos usam atualmente `styles.css?v=mobile-2` e `script.js?v=mobile-2` no HTML. Ao modificar CSS ou JavaScript, altere o sufixo `v` para que o navegador solicite os arquivos novos. Não é necessário renomeá-los.
+Os arquivos usam atualmente `styles.css?v=fotos-3` e `script.js?v=fotos-3` no HTML. Ao modificar CSS ou JavaScript, altere o sufixo `v` para que o navegador solicite os arquivos novos. Não é necessário renomeá-los.
 
 No computador, use Ctrl + F5. No celular, recarregue ou compare em uma aba privada. Confirme primeiro se o deploy terminou.
 

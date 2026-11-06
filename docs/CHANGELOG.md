@@ -1,5 +1,10 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Fotos da barbearia
+
+- Galeria substituída pelas três fotos locais `ft1.jpg`, `ft2.jpg` e `ft3.jpg`.
+- Grade adaptada para três imagens, mantendo ampliação e gestos.
+
 ## 6 de novembro de 2026 — Mensagem de agendamento
 
 - Botões do WhatsApp abrem a conversa com “Gostaria de agendar meu horário!” preenchido, aguardando o envio pelo cliente.

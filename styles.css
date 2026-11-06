@@ -856,3 +856,9 @@ h1 em, h2 em {
     .foto-ampliada img { height: max(80px, calc(100dvh - 130px)); }
     .foto-ampliada figcaption { padding-top: 4px; font-size: 12px; }
 }
+
+/* Fotos locais em tres colunas, sem espacos vazios. */
+.grade-galeria { grid-template-rows: clamp(320px, 36vw, 540px); }
+@media (min-width: 601px) and (max-width: 900px) {
+    .grade-galeria { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: 360px; }
+}
