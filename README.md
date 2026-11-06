@@ -1,6 +1,6 @@
-# Blessed Barbearia
+# STUDIO TH | BARBEARIA
 
-Site da Blessed Barbearia, em Arcoverde–PE, feito com HTML, CSS e JavaScript puros.
+Site da STUDIO TH | BARBEARIA, em Arcoverde–PE, feito com HTML, CSS e JavaScript puros.
 
 **Site:** https://traaaaaaaaaanks.github.io/Projeto-Barbearia/
 

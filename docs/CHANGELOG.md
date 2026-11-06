@@ -1,5 +1,9 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Nome da barbearia
+
+- Nome atualizado para STUDIO TH | BARBEARIA no cabeçalho, rodapé, textos, título da página, descrição, mapa e documentação.
+
 ## 6 de novembro de 2026 — Remoção dos preços
 
 - Preços removidos por decisão do proprietário; mantidos nomes, descrições e agendamento por serviço.

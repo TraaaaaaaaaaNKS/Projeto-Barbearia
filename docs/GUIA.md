@@ -1,4 +1,4 @@
-# Guia completo — Blessed Barbearia
+# Guia completo — STUDIO TH | BARBEARIA
 
 Atualizado em **6 de novembro de 2026**.
 
