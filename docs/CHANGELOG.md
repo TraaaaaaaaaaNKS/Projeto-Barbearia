@@ -1,5 +1,11 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Tipografia da marca
+
+- Nome STUDIO TH com Barlow Condensed em negrito, maior no cabeçalho e no rodapé.
+- Subtítulo BARBEARIA com espaçamento entre letras e tamanho adaptado ao celular.
+- Fonte fornecida pelo Google Fonts com `display=swap` e alternativas locais caso não carregue.
+
 ## 6 de novembro de 2026 — Nome da barbearia
 
 - Nome atualizado para STUDIO TH | BARBEARIA no cabeçalho, rodapé, textos, título da página, descrição, mapa e documentação.

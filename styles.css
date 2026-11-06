@@ -85,16 +85,21 @@ img {
 
 .marca strong,
 .marca-rodape strong {
-    font-size: 15px;
-    letter-spacing: 3px;
+    font-family: "Barlow Condensed", Impact, "Arial Narrow", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 0.95;
+    color: var(--cor-prateada-clara);
 }
 
 .marca small,
 .marca-rodape small {
     color: var(--cor-prateada);
-    font-size: 8px;
-    letter-spacing: 3px;
-    margin-top: 5px;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 8px;
 }
 
 .navegacao {
@@ -939,4 +944,11 @@ h1 em, h2 em {
     .lista-servicos article p { grid-column: 1; grid-row: 2; }
 
     .lista-servicos .botao-servico { grid-column: 1; grid-row: 3; justify-self: start; margin-top: 8px; }
+}
+
+/* Marca com tipografia propria, preservando o espaco do menu mobile. */
+.marca { flex-shrink: 0; }
+@media (max-width: 600px) {
+    .marca strong, .marca-rodape strong { font-size: 30px; }
+    .marca small, .marca-rodape small { font-size: 8px; letter-spacing: 4px; }
 }
