@@ -39,19 +39,7 @@ Foram removidos o parágrafo auxiliar da galeria e os números dos artigos de se
 
 ## Agendamento e dados comerciais
 
-Na branch `melhorias/agendamento-comparador`, os cartões de serviço incluem preços e o botão “Escolher serviço”. O WhatsApp abre com uma mensagem de agendamento contendo o nome do serviço selecionado. A exibição dos preços foi retomada após o envio dos valores pelo proprietário. Durações não foram informadas e não são exibidas. O comparador antes/depois aguarda fotos reais das duas etapas do mesmo atendimento. Essa branch não atualiza o Pages até ser integrada à `main`.
-
-| Serviço | Valores informados |
-| --- | --- |
-| Corte masculino | R$ 25 |
-| Barba | R$ 20 |
-| Luzes | R$ 80 |
-| Reflexo | R$ 80 |
-| Nevou | R$ 100 |
-| Progressiva | R$ 60 |
-| Sobrancelha | R$ 15 |
-
-Barba e sobrancelha usam valores fixos, conforme atualização do proprietário.
+Na branch `melhorias/agendamento-comparador`, os serviços exibem nome, descrição e botão Agendar com mensagem específica no WhatsApp. Os preços foram removidos a pedido do proprietário. O comparador antes/depois aguarda fotos das duas etapas do mesmo atendimento. Essa branch não atualiza o Pages até ser integrada à `main`.
 
 Os botões “Agendar horário” abrem `https://wa.me/558791105879` em nova aba.
 

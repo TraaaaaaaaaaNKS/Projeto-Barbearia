@@ -1,5 +1,10 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Remoção dos preços
+
+- Preços removidos por decisão do proprietário; mantidos nomes, descrições e agendamento por serviço.
+- Estilos de preço e espaçamentos associados removidos.
+
 ## 6 de novembro de 2026 — Valores fixos e apresentação dos preços
 
 - Barba fixada em R$ 20 e sobrancelha em R$ 15.
