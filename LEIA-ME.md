@@ -2,11 +2,13 @@
 
 Este projeto foi construído somente com HTML, CSS e JavaScript puros. Não usa frameworks ou bibliotecas.
 
+Veja a [documentação completa](DOCUMENTACAO.md) e o [histórico de alterações](CHANGELOG.md). A versão publicada atualmente está na `main`, com paleta prateada e gestos mobile.
+
 ## Arquivos
 
 - `index.html`: estrutura e conteúdo da landing page.
 - `styles.css`: paleta, layout, componentes e responsividade.
-- `script.js`: menu mobile e ano do rodapé.
+- `script.js`: menu mobile, ano do rodapé, galeria ampliada, navegação por teclado e gestos de toque.
 
 ## Responsividade
 
@@ -29,4 +31,6 @@ As cores ficam centralizadas nas variáveis do início de `styles.css`.
 ## Versões de cores
 
 - `backup/paleta-dourada`: versão anterior preservada.
-- `visual/prata-preto`: nova paleta prateada com preto.
+- `visual/prata-preto`: branch de construção da paleta prateada, já integrada à `main`.
+- `main`: versão publicada, com melhorias posteriores de cache e mobile.
+- Tag `versao-prateada`: marco anterior às melhorias mobile, no commit `d9e3c9a`.
