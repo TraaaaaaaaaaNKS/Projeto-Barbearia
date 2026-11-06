@@ -1,5 +1,13 @@
 # Histórico de alterações
 
+## Em desenvolvimento — Branch de melhorias
+
+- Branch `melhorias/agendamento-comparador`, criada após publicar as fotos.
+- Cada serviço possui botão com mensagem específica no WhatsApp e consulta de valor e duração.
+- Preços e durações aguardam os dados comerciais reais.
+- Comparador antes/depois aguarda duas fotos do mesmo atendimento; as fotos da galeria mostram resultados finais.
+- Apresentação dos barbeiros fora do escopo, conforme escolha do proprietário.
+
 ## 6 de novembro de 2026 — Fotos da barbearia
 
 - Galeria substituída pelas três fotos locais `ft1.jpg`, `ft2.jpg` e `ft3.jpg`.
