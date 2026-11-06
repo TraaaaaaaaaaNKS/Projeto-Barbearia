@@ -19,8 +19,8 @@ O CSS possui dois pontos principais de adaptação:
 
 - Fundo: `#080808`
 - Superfície: `#111214`
-- Prateado: `#bfc3c9`
-- Prateado claro: `#eef0f3`
+- Prateado: `#dce2eb`
+- Prateado claro: `#ffffff`
 - Texto: `#f0f1f3`
 - Texto secundário: `#a5a9b0`
 
