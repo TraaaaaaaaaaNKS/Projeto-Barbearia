@@ -17,10 +17,16 @@ O CSS possui dois pontos principais de adaptação:
 
 ## Paleta
 
-- Fundo: `#080704`
-- Superfície: `#100d08`
-- Dourado: `#b8862f`
-- Dourado claro: `#d7aa55`
-- Marfim: `#e8dcc5`
+- Fundo: `#080808`
+- Superfície: `#111214`
+- Prateado: `#bfc3c9`
+- Prateado claro: `#eef0f3`
+- Texto: `#f0f1f3`
+- Texto secundário: `#a5a9b0`
 
-As cores ficam centralizadas nas variáveis do início de `styles.css`, facilitando alterações globais.
+As cores ficam centralizadas nas variáveis do início de `styles.css`.
+
+## Versões de cores
+
+- `backup/paleta-dourada`: versão anterior preservada.
+- `visual/prata-preto`: nova paleta prateada com preto.
