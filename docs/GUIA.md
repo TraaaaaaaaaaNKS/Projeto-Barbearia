@@ -39,7 +39,7 @@ Foram removidos o parágrafo auxiliar da galeria e os números dos artigos de se
 
 ## Agendamento e dados comerciais
 
-Na branch `melhorias/agendamento-comparador`, os cartões de serviço incluem “Escolher serviço”. O WhatsApp abre com o nome do serviço selecionado e pergunta seu valor e duração. Os valores e tempos não foram inventados: a exibição desses dados aguarda informação do proprietário. O comparador antes/depois também aguarda fotos reais das duas etapas do mesmo atendimento. Essa branch não atualiza o Pages até ser integrada à `main`.
+Na branch `melhorias/agendamento-comparador`, os cartões de serviço incluem “Escolher serviço”. O WhatsApp abre com uma mensagem de agendamento contendo o nome do serviço selecionado. A ideia de exibir preços e duração foi retirada do escopo pelo proprietário. O comparador antes/depois aguarda fotos reais das duas etapas do mesmo atendimento. Essa branch não atualiza o Pages até ser integrada à `main`.
 
 Os botões “Agendar horário” abrem `https://wa.me/558791105879` em nova aba.
 

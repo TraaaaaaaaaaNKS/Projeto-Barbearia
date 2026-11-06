@@ -3,8 +3,8 @@
 ## Em desenvolvimento — Branch de melhorias
 
 - Branch `melhorias/agendamento-comparador`, criada após publicar as fotos.
-- Cada serviço possui botão com mensagem específica no WhatsApp e consulta de valor e duração.
-- Preços e durações aguardam os dados comerciais reais.
+- Cada serviço possui botão com mensagem específica de agendamento no WhatsApp.
+- Ideia de preços e duração retirada do escopo pelo proprietário; perguntas sobre esses dados também removidas das mensagens.
 - Comparador antes/depois aguarda duas fotos do mesmo atendimento; as fotos da galeria mostram resultados finais.
 - Apresentação dos barbeiros fora do escopo, conforme escolha do proprietário.
 
