@@ -20,9 +20,9 @@ Site estático, sem framework, servidor de aplicação ou banco de dados. Não �
 | `styles.css` | Cores, tipografia, botões, grades e responsividade. |
 | `script.js` | Menu, ano do rodapé, visualizador, teclado e gestos. |
 | `assets/hero-barbearia.png` | Fundo local da chamada inicial. |
+| `docs/GUIA.md` | Guia completo de uso e manutenção. |
 | `README.md` | Apresentação e links para os guias. |
-| `LEIA-ME.md` | Resumo técnico e paleta. |
-| `CHANGELOG.md` | Histórico das alterações. |
+| `docs/CHANGELOG.md` | Histórico das alterações. |
 | `.gitignore` | Regras de arquivos ignorados. |
 | `.gitattributes` | Normalização dos arquivos de texto. |
 | `LICENSE` | Licença MIT presente no repositório. |

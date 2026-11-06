@@ -1,5 +1,11 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Organização da documentação
+
+- README mantido como entrada na raiz.
+- Guia completo e histórico centralizados em `docs/`.
+- Resumo LEIA-ME removido por repetir informações do guia.
+
 ## 6 de novembro de 2026 — Ajuste na seção Sobre
 
 - Removido o link “Quero renovar meu visual”, mantendo os textos da seção.

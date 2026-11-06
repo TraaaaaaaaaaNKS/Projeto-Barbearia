@@ -12,9 +12,8 @@ Versão preta e prateada com acabamento metálico, WhatsApp, galeria ampliável 
 
 ## Documentação
 
-- [Guia completo](DOCUMENTACAO.md): funcionalidades, edição, publicação, recuperação e testes.
-- [Histórico de alterações](CHANGELOG.md): mudanças e commits de referência.
-- [Resumo técnico](LEIA-ME.md): arquivos e paleta.
+- [Guia completo](docs/GUIA.md): funcionalidades, edição, publicação, recuperação e testes.
+- [Histórico de alterações](docs/CHANGELOG.md): mudanças e commits de referência.
 
 ## Executar
 
