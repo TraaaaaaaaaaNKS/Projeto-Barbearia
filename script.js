@@ -67,3 +67,28 @@ visualizador.addEventListener('keydown', (evento) => {
     mostrarFoto(fotoAtual + (evento.key === 'ArrowLeft' ? -1 : 1));
   }
 });
+
+// Gestos horizontais na foto ampliada, preservando a rolagem e o zoom nativos.
+const areaFoto = visualizador.querySelector('.foto-ampliada');
+let inicioGesto = null;
+areaFoto.addEventListener('touchstart', (evento) => {
+  inicioGesto = evento.touches.length === 1
+    ? { x: evento.touches[0].clientX, y: evento.touches[0].clientY }
+    : null;
+}, { passive: true });
+areaFoto.addEventListener('touchmove', (evento) => {
+  if (evento.touches.length !== 1) inicioGesto = null;
+}, { passive: true });
+areaFoto.addEventListener('touchcancel', () => { inicioGesto = null; });
+areaFoto.addEventListener('touchend', (evento) => {
+  const inicio = inicioGesto;
+  inicioGesto = null;
+  if (!inicio || evento.touches.length || evento.changedTouches.length !== 1) return;
+  const dx = evento.changedTouches[0].clientX - inicio.x;
+  const dy = evento.changedTouches[0].clientY - inicio.y;
+  if (Math.abs(dx) >= 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+    mostrarFoto(fotoAtual + (dx < 0 ? 1 : -1));
+  }
+}, { passive: true });
+visualizador.addEventListener('close', () => { inicioGesto = null; });
+imagemAmpliada.draggable = false;

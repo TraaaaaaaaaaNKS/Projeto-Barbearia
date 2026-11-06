@@ -817,3 +817,42 @@ body.foto-aberta { overflow: hidden; }
 h1 em, h2 em {
     text-shadow: 0 0 24px rgba(220, 226, 235, 0.18);
 }
+
+/* Ajustes para toque e telas estreitas. */
+.foto-ampliada { touch-action: pan-y pinch-zoom; }
+@media (max-width: 900px) {
+    .botao-menu { min-width: 44px; min-height: 44px; cursor: pointer; }
+    .navegacao > a { min-height: 44px; display: flex; align-items: center; }
+    .cabecalho { gap: 20px; }
+}
+@media (max-width: 600px) {
+    h1 { font-size: clamp(2.2rem, 9vw, 3rem); }
+    .sobre h2, .cabecalho-secao h2, .chamada-final h2 {
+        font-size: clamp(2rem, 8.5vw, 2.8rem);
+    }
+    .destaque { min-height: auto; }
+    .grade-galeria { scroll-snap-type: x mandatory; }
+    .item-galeria { flex: 0 0 82vw; min-width: 0; scroll-snap-align: start; }
+    .rodape-inferior { flex-direction: column; gap: 12px; }
+    .visualizador {
+        height: 100dvh;
+        padding: max(64px, env(safe-area-inset-top)) 12px max(16px, env(safe-area-inset-bottom));
+    }
+    .conteudo-visualizador {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(0, 1fr) 48px;
+        gap: 12px;
+    }
+    .foto-ampliada { grid-column: 1 / -1; grid-row: 1; }
+    .foto-ampliada img { height: max(100px, calc(100dvh - 220px)); }
+    .foto-ampliada figcaption { font-size: 14px; padding-top: 8px; }
+    .controle-foto { width: 48px; height: 48px; }
+    .foto-anterior { grid-column: 1; grid-row: 2; justify-self: start; }
+    .foto-seguinte { grid-column: 2; grid-row: 2; justify-self: end; }
+    .fechar-foto { top: max(8px, env(safe-area-inset-top)); }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+    .visualizador { padding-top: 52px; }
+    .foto-ampliada img { height: max(80px, calc(100dvh - 130px)); }
+    .foto-ampliada figcaption { padding-top: 4px; font-size: 12px; }
+}
