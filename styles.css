@@ -866,3 +866,11 @@ h1 em, h2 em {
 /* Escolha do servico com mensagem personalizada. */
 .lista-servicos article > div { min-width: 0; }
 .botao-servico { margin-top: 20px; font-size: 11px; padding: 13px 18px; }
+
+.lista-servicos .preco-servico {
+    color: var(--cor-prateada-clara);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 14px;
+    line-height: 1.5;
+}

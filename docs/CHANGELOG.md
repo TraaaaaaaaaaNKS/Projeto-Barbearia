@@ -1,10 +1,17 @@
 # Histórico de alterações
 
+## 6 de novembro de 2026 — Preços informados pelo proprietário
+
+- Ideia de preços retomada na branch de melhorias com os valores reais recebidos.
+- Adicionado o serviço Reflexo por R$ 80, incluindo botão de agendamento específico.
+- Barba e sobrancelha mostram todas as opções de preço, sem categorias inventadas.
+- Duração dos serviços permanece sem exibição por não ter sido informada.
+
 ## Em desenvolvimento — Branch de melhorias
 
 - Branch `melhorias/agendamento-comparador`, criada após publicar as fotos.
 - Cada serviço possui botão com mensagem específica de agendamento no WhatsApp.
-- Ideia de preços e duração retirada do escopo pelo proprietário; perguntas sobre esses dados também removidas das mensagens.
+- Inicialmente preços e duração foram retirados do escopo; depois os preços foram retomados, conforme registro acima. Perguntas sobre esses dados foram removidas das mensagens.
 - Comparador antes/depois aguarda duas fotos do mesmo atendimento; as fotos da galeria mostram resultados finais.
 - Apresentação dos barbeiros fora do escopo, conforme escolha do proprietário.
 
